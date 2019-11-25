@@ -1,13 +1,20 @@
 # CarRacing using PPO with Continuous Actions
 
+### Introduction
+This repository contains a simple version of PPO with Continuous actions implemented in Tensorflow 2 that can be used on Box 2d environments.
+It follows the old PPO1 approach that uses open MPI to average gradients across GPUs. 
+The reason it is created this way is so that with a little change it can be used as a layer in other models.
+
+### Comparision with Stable Baselines
+
+Here I compared my model with a Simple CNNPolicy using Stable Baselines. I used the VecFrameStack to stack 4 frames to be used as the input.
+I did not use a LSTM or any other policy as I wanted to compare a basic model. We got similar results.
+
 ![Custom Model Rewards](Custom%20Model.png)
 
 ![Stable Baselines Rewards](Stable%20Baselines.png)
 
-### Introduction
-This repository contains a simple version of PPO with Continuous actions that can be used on Box 2d environments.
-It follows the old PPO1 approach that uses open MPI to average gradients across GPUs. 
-The reason it is created this way is so that with a little change it can be used as a layer in other models.
+
 
 ### Requirements
 - gym
