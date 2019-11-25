@@ -10,7 +10,10 @@ The reason it is created this way is so that with a little change it can be used
 Here I compared my model with a Simple CNNPolicy using Stable Baselines. I used the VecFrameStack to stack 4 frames to be used as the input.
 I did not use a LSTM or any other policy as I wanted to compare a basic model. We got similar results.
 
+#### Custom Model Rewards
 ![Custom Model Rewards](Custom%20Model.png)
+
+#### Stable Baselines Rewards
 
 ![Stable Baselines Rewards](Stable%20Baselines.png)
 
