@@ -1,8 +1,8 @@
 # CarRacing using PPO with Continuous Actions
 
-![Custom Model Rewards](Custom Model.png)
+![Custom Model Rewards](Custom Model.png?raw=true)
 
-![Stable Baselines Rewards](Stable Baselines.png)
+![Stable Baselines Rewards](Stable Baselines.png?raw=true)
 
 ### Introduction
 This repository contains a simple version of PPO with Continuous actions that can be used on Box 2d environments.
